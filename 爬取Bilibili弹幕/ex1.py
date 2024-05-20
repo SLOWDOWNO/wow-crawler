@@ -15,17 +15,19 @@ from lxml import etree
 
 cid = "354066441"
 url = f"https://comment.bilibili.com/{cid}.xml"
-csv_path = Path("data") / "峰哥采访Jelly弹幕信息.csv"
-pic_path = Path("img") / "峰哥采访Jelly弹幕词云.png"
+csv_path = Path("data/csv") / "峰哥采访Jelly弹幕信息.csv"
+pic_path = Path("data/img") / "峰哥采访Jelly弹幕词云.png"
 font_path = Path("fonts") / "SanJiBangKaiJianTi-2.ttf"
-stopword_file = Path("data") / "cn_stopwords.txt"
+stopword_file = Path("data/meta") / "cn_stopwords.txt"
+
+hds = {
+    "Refer": "https://www.bilibili.com/video/BV1sf4y1872K/?",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+}
 
 
 def get_page(url):
-    hds = {
-        "Refer": "https://www.bilibili.com/video/BV1sf4y1872K/?",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
-    }
+
     resp = requests.get(url, headers=hds)
     resp.encoding = "utf-8"
     # print(resp.text)

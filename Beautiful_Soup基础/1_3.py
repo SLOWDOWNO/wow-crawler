@@ -14,11 +14,11 @@ and they lived at the bottom of a well.</p>
 <p class="story">...</p>
 """
 
-soup = bs4.BeautifulSoup(html_doc, 'lxml')
+soup = bs4.BeautifulSoup(html_doc, "lxml")
 
 # print(soup.prettify())
 
-tag = soup.find_all('a')
+tag = soup.find_all("a")
 print(tag[0])
 
 head_tag = soup.head
