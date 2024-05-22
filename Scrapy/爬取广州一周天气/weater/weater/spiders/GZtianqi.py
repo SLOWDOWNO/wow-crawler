@@ -52,7 +52,7 @@ class GztianqiSpider(scrapy.Spider):
             right = day.xpath("./a/div[4]/span[2]/text()")[0]
             item["temperature"] = f"{left} ~ {right} ℃"
 
-            item["img"] = day.xpath("./a/div[2]/img/@src")[0].extract()
+            item["img"] = "https:" + day.xpath("./a/div[2]/img/@src")[0].extract()
             item["weather"] = day.xpath("./a/div[3]/text()")[0].extract()
             items.append(item)
 

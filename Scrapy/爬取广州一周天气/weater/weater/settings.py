@@ -12,8 +12,9 @@ BOT_NAME = "weater"
 SPIDER_MODULES = ["weater.spiders"]
 NEWSPIDER_MODULE = "weater.spiders"
 ITEM_PIPELINES = {
-    "weater.pipelines.Write2Json": 600,
-    "weater.pipelines.WeaterPipeline": 500,
+    "weater.pipelines.Write2Json": 300,
+    "weater.pipelines.WeaterPipeline": 400,
+    "weater.pipelines.Write2MySQL": 500,
 }
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
