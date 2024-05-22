@@ -1,0 +1,706 @@
+{
+  "data": {
+    "problem_set": [
+      {
+        "pid": "1",
+        "title": "Two Sum",
+        "titleCn": "两数之和",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/two-sum"
+      },
+      {
+        "pid": "2",
+        "title": "Add Two Numbers",
+        "titleCn": "两数相加",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/add-two-numbers"
+      },
+      {
+        "pid": "3",
+        "title": "Longest Substring Without Repeating Characters",
+        "titleCn": "无重复字符的最长子串",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/longest-substring-without-repeating-characters"
+      },
+      {
+        "pid": "4",
+        "title": "Median of Two Sorted Arrays",
+        "titleCn": "寻找两个正序数组的中位数",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/median-of-two-sorted-arrays"
+      },
+      {
+        "pid": "5",
+        "title": "Longest Palindromic Substring",
+        "titleCn": "最长回文子串",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/longest-palindromic-substring"
+      },
+      {
+        "pid": "6",
+        "title": "Zigzag Conversion",
+        "titleCn": "Z 字形变换",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/zigzag-conversion"
+      },
+      {
+        "pid": "7",
+        "title": "Reverse Integer",
+        "titleCn": "整数反转",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/reverse-integer"
+      },
+      {
+        "pid": "8",
+        "title": "String to Integer (atoi)",
+        "titleCn": "字符串转换整数 (atoi)",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/string-to-integer-atoi"
+      },
+      {
+        "pid": "9",
+        "title": "Palindrome Number",
+        "titleCn": "回文数",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/palindrome-number"
+      },
+      {
+        "pid": "10",
+        "title": "Regular Expression Matching",
+        "titleCn": "正则表达式匹配",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/regular-expression-matching"
+      },
+      {
+        "pid": "11",
+        "title": "Container With Most Water",
+        "titleCn": "盛最多水的容器",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/container-with-most-water"
+      },
+      {
+        "pid": "12",
+        "title": "Integer to Roman",
+        "titleCn": "整数转罗马数字",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/integer-to-roman"
+      },
+      {
+        "pid": "13",
+        "title": "Roman to Integer",
+        "titleCn": "罗马数字转整数",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/roman-to-integer"
+      },
+      {
+        "pid": "14",
+        "title": "Longest Common Prefix",
+        "titleCn": "最长公共前缀",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/longest-common-prefix"
+      },
+      {
+        "pid": "15",
+        "title": "3Sum",
+        "titleCn": "三数之和",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/3sum"
+      },
+      {
+        "pid": "16",
+        "title": "3Sum Closest",
+        "titleCn": "最接近的三数之和",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/3sum-closest"
+      },
+      {
+        "pid": "17",
+        "title": "Letter Combinations of a Phone Number",
+        "titleCn": "电话号码的字母组合",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/letter-combinations-of-a-phone-number"
+      },
+      {
+        "pid": "18",
+        "title": "4Sum",
+        "titleCn": "四数之和",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/4sum"
+      },
+      {
+        "pid": "19",
+        "title": "Remove Nth Node From End of List",
+        "titleCn": "删除链表的倒数第 N 个结点",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/remove-nth-node-from-end-of-list"
+      },
+      {
+        "pid": "20",
+        "title": "Valid Parentheses",
+        "titleCn": "有效的括号",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/valid-parentheses"
+      },
+      {
+        "pid": "21",
+        "title": "Merge Two Sorted Lists",
+        "titleCn": "合并两个有序链表",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/merge-two-sorted-lists"
+      },
+      {
+        "pid": "22",
+        "title": "Generate Parentheses",
+        "titleCn": "括号生成",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/generate-parentheses"
+      },
+      {
+        "pid": "23",
+        "title": "Merge k Sorted Lists",
+        "titleCn": "合并 K 个升序链表",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/merge-k-sorted-lists"
+      },
+      {
+        "pid": "24",
+        "title": "Swap Nodes in Pairs",
+        "titleCn": "两两交换链表中的节点",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/swap-nodes-in-pairs"
+      },
+      {
+        "pid": "25",
+        "title": "Reverse Nodes in k-Group",
+        "titleCn": "K 个一组翻转链表",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/reverse-nodes-in-k-group"
+      },
+      {
+        "pid": "26",
+        "title": "Remove Duplicates from Sorted Array",
+        "titleCn": "删除有序数组中的重复项",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/remove-duplicates-from-sorted-array"
+      },
+      {
+        "pid": "27",
+        "title": "Remove Element",
+        "titleCn": "移除元素",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/remove-element"
+      },
+      {
+        "pid": "28",
+        "title": "Find the Index of the First Occurrence in a String",
+        "titleCn": "找出字符串中第一个匹配项的下标",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string"
+      },
+      {
+        "pid": "29",
+        "title": "Divide Two Integers",
+        "titleCn": "两数相除",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/divide-two-integers"
+      },
+      {
+        "pid": "30",
+        "title": "Substring with Concatenation of All Words",
+        "titleCn": "串联所有单词的子串",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/substring-with-concatenation-of-all-words"
+      },
+      {
+        "pid": "31",
+        "title": "Next Permutation",
+        "titleCn": "下一个排列",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/next-permutation"
+      },
+      {
+        "pid": "32",
+        "title": "Longest Valid Parentheses",
+        "titleCn": "最长有效括号",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/longest-valid-parentheses"
+      },
+      {
+        "pid": "33",
+        "title": "Search in Rotated Sorted Array",
+        "titleCn": "搜索旋转排序数组",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/search-in-rotated-sorted-array"
+      },
+      {
+        "pid": "34",
+        "title": "Find First and Last Position of Element in Sorted Array",
+        "titleCn": "在排序数组中查找元素的第一个和最后一个位置",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array"
+      },
+      {
+        "pid": "35",
+        "title": "Search Insert Position",
+        "titleCn": "搜索插入位置",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/search-insert-position"
+      },
+      {
+        "pid": "36",
+        "title": "Valid Sudoku",
+        "titleCn": "有效的数独",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/valid-sudoku"
+      },
+      {
+        "pid": "37",
+        "title": "Sudoku Solver",
+        "titleCn": "解数独",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/sudoku-solver"
+      },
+      {
+        "pid": "38",
+        "title": "Count and Say",
+        "titleCn": "外观数列",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/count-and-say"
+      },
+      {
+        "pid": "39",
+        "title": "Combination Sum",
+        "titleCn": "组合总和",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/combination-sum"
+      },
+      {
+        "pid": "40",
+        "title": "Combination Sum II",
+        "titleCn": "组合总和 II",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/combination-sum-ii"
+      },
+      {
+        "pid": "41",
+        "title": "First Missing Positive",
+        "titleCn": "缺失的第一个正数",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/first-missing-positive"
+      },
+      {
+        "pid": "42",
+        "title": "Trapping Rain Water",
+        "titleCn": "接雨水",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/trapping-rain-water"
+      },
+      {
+        "pid": "43",
+        "title": "Multiply Strings",
+        "titleCn": "字符串相乘",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/multiply-strings"
+      },
+      {
+        "pid": "44",
+        "title": "Wildcard Matching",
+        "titleCn": "通配符匹配",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/wildcard-matching"
+      },
+      {
+        "pid": "45",
+        "title": "Jump Game II",
+        "titleCn": "跳跃游戏 II",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/jump-game-ii"
+      },
+      {
+        "pid": "46",
+        "title": "Permutations",
+        "titleCn": "全排列",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/permutations"
+      },
+      {
+        "pid": "47",
+        "title": "Permutations II",
+        "titleCn": "全排列 II",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/permutations-ii"
+      },
+      {
+        "pid": "48",
+        "title": "Rotate Image",
+        "titleCn": "旋转图像",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/rotate-image"
+      },
+      {
+        "pid": "49",
+        "title": "Group Anagrams",
+        "titleCn": "字母异位词分组",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/group-anagrams"
+      },
+      {
+        "pid": "50",
+        "title": "Pow(x, n)",
+        "titleCn": "Pow(x, n)",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/powx-n"
+      },
+      {
+        "pid": "51",
+        "title": "N-Queens",
+        "titleCn": "N 皇后",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/n-queens"
+      },
+      {
+        "pid": "52",
+        "title": "N-Queens II",
+        "titleCn": "N 皇后 II",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/n-queens-ii"
+      },
+      {
+        "pid": "53",
+        "title": "Maximum Subarray",
+        "titleCn": "最大子数组和",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/maximum-subarray"
+      },
+      {
+        "pid": "54",
+        "title": "Spiral Matrix",
+        "titleCn": "螺旋矩阵",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/spiral-matrix"
+      },
+      {
+        "pid": "55",
+        "title": "Jump Game",
+        "titleCn": "跳跃游戏",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/jump-game"
+      },
+      {
+        "pid": "56",
+        "title": "Merge Intervals",
+        "titleCn": "合并区间",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/merge-intervals"
+      },
+      {
+        "pid": "57",
+        "title": "Insert Interval",
+        "titleCn": "插入区间",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/insert-interval"
+      },
+      {
+        "pid": "58",
+        "title": "Length of Last Word",
+        "titleCn": "最后一个单词的长度",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/length-of-last-word"
+      },
+      {
+        "pid": "59",
+        "title": "Spiral Matrix II",
+        "titleCn": "螺旋矩阵 II",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/spiral-matrix-ii"
+      },
+      {
+        "pid": "60",
+        "title": "Permutation Sequence",
+        "titleCn": "排列序列",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/permutation-sequence"
+      },
+      {
+        "pid": "61",
+        "title": "Rotate List",
+        "titleCn": "旋转链表",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/rotate-list"
+      },
+      {
+        "pid": "62",
+        "title": "Unique Paths",
+        "titleCn": "不同路径",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/unique-paths"
+      },
+      {
+        "pid": "63",
+        "title": "Unique Paths II",
+        "titleCn": "不同路径 II",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/unique-paths-ii"
+      },
+      {
+        "pid": "64",
+        "title": "Minimum Path Sum",
+        "titleCn": "最小路径和",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/minimum-path-sum"
+      },
+      {
+        "pid": "65",
+        "title": "Valid Number",
+        "titleCn": "有效数字",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/valid-number"
+      },
+      {
+        "pid": "66",
+        "title": "Plus One",
+        "titleCn": "加一",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/plus-one"
+      },
+      {
+        "pid": "67",
+        "title": "Add Binary",
+        "titleCn": "二进制求和",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/add-binary"
+      },
+      {
+        "pid": "68",
+        "title": "Text Justification",
+        "titleCn": "文本左右对齐",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/text-justification"
+      },
+      {
+        "pid": "69",
+        "title": "Sqrt(x)",
+        "titleCn": "x 的平方根 ",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/sqrtx"
+      },
+      {
+        "pid": "70",
+        "title": "Climbing Stairs",
+        "titleCn": "爬楼梯",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/climbing-stairs"
+      },
+      {
+        "pid": "71",
+        "title": "Simplify Path",
+        "titleCn": "简化路径",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/simplify-path"
+      },
+      {
+        "pid": "72",
+        "title": "Edit Distance",
+        "titleCn": "编辑距离",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/edit-distance"
+      },
+      {
+        "pid": "73",
+        "title": "Set Matrix Zeroes",
+        "titleCn": "矩阵置零",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/set-matrix-zeroes"
+      },
+      {
+        "pid": "74",
+        "title": "Search a 2D Matrix",
+        "titleCn": "搜索二维矩阵",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/search-a-2d-matrix"
+      },
+      {
+        "pid": "75",
+        "title": "Sort Colors",
+        "titleCn": "颜色分类",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/sort-colors"
+      },
+      {
+        "pid": "76",
+        "title": "Minimum Window Substring",
+        "titleCn": "最小覆盖子串",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/minimum-window-substring"
+      },
+      {
+        "pid": "77",
+        "title": "Combinations",
+        "titleCn": "组合",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/combinations"
+      },
+      {
+        "pid": "78",
+        "title": "Subsets",
+        "titleCn": "子集",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/subsets"
+      },
+      {
+        "pid": "79",
+        "title": "Word Search",
+        "titleCn": "单词搜索",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/word-search"
+      },
+      {
+        "pid": "80",
+        "title": "Remove Duplicates from Sorted Array II",
+        "titleCn": "删除有序数组中的重复项 II",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii"
+      },
+      {
+        "pid": "81",
+        "title": "Search in Rotated Sorted Array II",
+        "titleCn": "搜索旋转排序数组 II",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/search-in-rotated-sorted-array-ii"
+      },
+      {
+        "pid": "82",
+        "title": "Remove Duplicates from Sorted List II",
+        "titleCn": "删除排序链表中的重复元素 II",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii"
+      },
+      {
+        "pid": "83",
+        "title": "Remove Duplicates from Sorted List",
+        "titleCn": "删除排序链表中的重复元素",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/remove-duplicates-from-sorted-list"
+      },
+      {
+        "pid": "84",
+        "title": "Largest Rectangle in Histogram",
+        "titleCn": "柱状图中最大的矩形",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/largest-rectangle-in-histogram"
+      },
+      {
+        "pid": "85",
+        "title": "Maximal Rectangle",
+        "titleCn": "最大矩形",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/maximal-rectangle"
+      },
+      {
+        "pid": "86",
+        "title": "Partition List",
+        "titleCn": "分隔链表",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/partition-list"
+      },
+      {
+        "pid": "87",
+        "title": "Scramble String",
+        "titleCn": "扰乱字符串",
+        "difficulty": "HARD",
+        "url": "https://leetcode.cn/problems/scramble-string"
+      },
+      {
+        "pid": "88",
+        "title": "Merge Sorted Array",
+        "titleCn": "合并两个有序数组",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/merge-sorted-array"
+      },
+      {
+        "pid": "89",
+        "title": "Gray Code",
+        "titleCn": "格雷编码",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/gray-code"
+      },
+      {
+        "pid": "90",
+        "title": "Subsets II",
+        "titleCn": "子集 II",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/subsets-ii"
+      },
+      {
+        "pid": "91",
+        "title": "Decode Ways",
+        "titleCn": "解码方法",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/decode-ways"
+      },
+      {
+        "pid": "92",
+        "title": "Reverse Linked List II",
+        "titleCn": "反转链表 II",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/reverse-linked-list-ii"
+      },
+      {
+        "pid": "93",
+        "title": "Restore IP Addresses",
+        "titleCn": "复原 IP 地址",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/restore-ip-addresses"
+      },
+      {
+        "pid": "94",
+        "title": "Binary Tree Inorder Traversal",
+        "titleCn": "二叉树的中序遍历",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/binary-tree-inorder-traversal"
+      },
+      {
+        "pid": "95",
+        "title": "Unique Binary Search Trees II",
+        "titleCn": "不同的二叉搜索树 II",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/unique-binary-search-trees-ii"
+      },
+      {
+        "pid": "96",
+        "title": "Unique Binary Search Trees",
+        "titleCn": "不同的二叉搜索树",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/unique-binary-search-trees"
+      },
+      {
+        "pid": "97",
+        "title": "Interleaving String",
+        "titleCn": "交错字符串",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/interleaving-string"
+      },
+      {
+        "pid": "98",
+        "title": "Validate Binary Search Tree",
+        "titleCn": "验证二叉搜索树",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/validate-binary-search-tree"
+      },
+      {
+        "pid": "99",
+        "title": "Recover Binary Search Tree",
+        "titleCn": "恢复二叉搜索树",
+        "difficulty": "MEDIUM",
+        "url": "https://leetcode.cn/problems/recover-binary-search-tree"
+      },
+      {
+        "pid": "100",
+        "title": "Same Tree",
+        "titleCn": "相同的树",
+        "difficulty": "EASY",
+        "url": "https://leetcode.cn/problems/same-tree"
+      }
+    ]
+  }
+}
